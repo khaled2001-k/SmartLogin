@@ -33,7 +33,7 @@ if (localStorage.getItem('userInputs')!=null) {
       }
       inputsSignUp.push(input);
       localStorage.setItem('userInputs',JSON.stringify(inputsSignUp))
-      location.href = '../Login/index.html'
+      location.href = '../index.html'
    }
   
 }
