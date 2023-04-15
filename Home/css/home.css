@@ -1,0 +1,23 @@
+body{
+    color:  rgb(255, 255, 255) !important;
+    background: #696363;
+    background-image: url(../../images/pexels-irina-iriser-1379640.jpg);
+    background-size: cover;
+    background-attachment: fixed;}
+.mainDiv{
+    height: 35%;
+    width: 70%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+}
+.form-control{
+    width: 90%;
+}
+.btn{
+    width: 90%;
+}
+ .logBtn{
+    width: 10%;
+    height: 20%;
+    background-color: #bc7408;
+ }

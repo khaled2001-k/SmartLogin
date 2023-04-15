@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Smart Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/SignUp.css">
+
+</head>
+
+<body>
+    <div class="container  mainDiv h-75 my-5 text-center">
+<h2 class="text-center py-3  fw-bold">Smart Login System</h2>
+<input type="text"   id="userNameInput" class="form-control my-5  m-auto" placeholder="Enter Your Name">
+<ul id="alertName" class="alert text-danger d-none" >
+    <li>Uppercase (A-Z) and lowercase (a-z) English letters.</li>
+<li>Digits (3-8).</li>
+<li>Optional IF You Need To Add Last Name.</li>
+</ul>
+<input type="text"  id="userEmailInput" class="form-control my-5  m-auto" placeholder="Enter Your Email">
+<ul id="alertEmail" class="alert text-danger d-none" >
+    <li>Uppercase (A-Z) and lowercase (a-z) English letters.</li>
+<li>Digits (0-9).</li>
+<li>Characters ! # $ % & ' * + - / = ? ^ _ ` { | } ~.</li>
+<li>Character . ( period, dot or fullstop) provided that it is not the first or last character and it will not come one after the other.</li>
+</ul>
+
+
+<input type="password"  id="userPasswordInput" class="form-control my-5  m-auto" placeholder="Enter Your Password">
+<!-- <h5 id="alertPass" class="alert alert-danger d-none">Password Must Contain at least eight characters,<br> at least one number and both lower <br> uppercase letters <br> special characters</h5> -->
+<ul id="alertPass" class="alert text-danger d-none" >
+    <li>Password Must Contain at least eight characters.</li>
+<li>at least one number and both lower.</li>
+<li>uppercase letters.</li>
+<li>special characters.</li>
+</ul>  
+<button  class="btn btn-outline-light" id="signUpBtn" onclick="signUpBtn11()" disabled>Sign Up</button>
+ <h4 class="text-center p-4" id="message"></h4>
+<h5 class="m-4">You have an accoount ?<a class="link-info text-decoration-none" href="../Login/index.html" >  Sign In  </a> </h5>
+
+    </div>
+
+
+<a href="../Login/index.html"></a>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
